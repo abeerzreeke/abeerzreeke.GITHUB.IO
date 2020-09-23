@@ -1,0 +1,15 @@
+#langues{
+    overflow: hidden;
+    padding: 7em 19em;   
+}
+
+#langues p{
+    font-family: cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

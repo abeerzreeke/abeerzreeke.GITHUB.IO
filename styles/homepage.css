@@ -1,0 +1,157 @@
+/*index-page*/
+.index-page {
+    background-size: cover;
+    /* LOGO */
+    /*  MENU */
+  }
+  
+  .index-page #header {
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+  }
+ 
+  .index-page #logo {
+    position: absolute;
+    top: 3em;
+    left: 0;
+  }
+  
+  .index-page #logo h1, .index-page #logo p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .index-page #logo h1 {
+    letter-spacing: -1px;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-size: 3.5em;
+    color: #000;
+  }
+  
+  .index-page #logo p {
+    padding: 0px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #161616;
+  }
+  
+  .index-page #logo p a {
+    color: #161616;
+  }
+  
+  .index-page #logo a {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .index-page #menu {
+    overflow: hidden;
+    border-bottom: 4px solid rgb(134, 193, 248);
+    border-top: 4px solid rgb(134, 193, 248);
+  }
+  
+  .index-page #menu ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
+    list-style: none;
+    line-height: normal;
+  }
+  
+  .index-page #menu li {
+    display: inline-block;
+  }
+  
+  .index-page #menu a {
+    display: block;
+    padding: 0px 40px 0px 40px;
+    line-height: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(45, 42, 255);
+    border-style: none;
+  }
+  
+  .index-page #menu a:hover, .index-page #menu .current_page_item a {
+    text-decoration: none;
+    color:rgb(45, 42, 255);
+  }
+  
+  .index-page #menu .last {
+    border-right: none;
+  }
+  
+  /* ******************************************************************************* */
+  /*    CONTENT                                                                       */
+  /* ******************************************************************************* */
+  /** PAGE */
+  #page {
+    overflow: hidden;
+    padding: 5em 5em;
+  }
+  
+  #page img {
+    margin-top: 5px;
+    margin-bottom: 1em;
+    width: 282px;
+    height: 150px;
+  }
+  
+  #page p,a{
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  .column1,
+  .column2,
+  .column3,
+  .column4,
+  #Download{
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 270px;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #Download{
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 30%;
+    float: inline-start;
+    margin-top: 30px;
+
+  }
+  #Download img{
+    margin-top: 5px;
+    margin-bottom: 1em;
+    width: 254px;
+    height: 150px;
+  }
+ 
+  
+  .icon-info {
+    margin-left: 5%;
+  }
+
+  footer{
+    bottom: -64px;
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.843);
+    width: 100%;
+  }
+
+  .fa-phone, .fa-envelope, .fa-home, .fa-download{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 15px;
+
+  }
