@@ -1,0 +1,38 @@
+#contedu{
+    overflow: hidden;
+    padding: 7em 19em;
+}
+
+#contedu img{   
+    margin-bottom: 1em;
+    margin-top: -114px;
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    
+}
+
+#contedu h2,p{
+    color:rgb(10, 10, 10);
+    font-family: "Times New Roman", "Courier New", serif; 
+    font-size: 22px; 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
+.col1{
+    margin-top: 23px;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.col2{
+    margin-top: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+

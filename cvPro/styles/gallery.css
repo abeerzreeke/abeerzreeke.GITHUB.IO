@@ -1,0 +1,152 @@
+
+  div#gallery-page {
+    height:850px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  div#gallery {
+    width: 85%;
+    margin: auto;
+    margin-top: 8%;
+    margin-right: 3%;
+  }
+
+  body{
+    background-position: cover;
+    background-attachment: fixed;
+  }
+  
+  #gallery-page{
+    background-position: cover;
+    background-attachment: fixed;
+  }
+img{
+        height: 150px;
+        margin: 0px;
+   }
+
+      figure {
+        float: left;
+        position: relative;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 1px 2px 3px black;
+      }
+      figure:hover {
+    box-shadow: 5px 10px 100px black;
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform: scale(1.1,1.1);
+    z-index: 20;
+  }
+
+  
+
+  figure.pic1 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(-10deg);
+    z-index: 1;
+  }
+  
+  figure.pic2 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(15deg);
+    z-index: 2;
+  }
+  
+  figure.pic3 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(-25deg);
+    z-index: 1;
+  }
+  
+  figure.pic4 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(5deg);
+    z-index:1;
+  }
+  
+  figure.pic5 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(5deg);
+    z-index:1;
+  }
+  
+  figure.pic6 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(-8deg);
+    z-index:1;
+  }
+  
+  figure.pic7 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(2deg);
+    z-index:1;
+  }
+  
+  figure.pic8 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(-13deg);
+    z-index:1;
+  }
+  
+  figure.pic9 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(-7deg);
+    z-index:1;
+  }
+  
+  figure.pic10 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(2deg);
+    z-index:1;
+  }
+  
+  figure.pic11 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+   -webkit-transform : rotate(-3deg);
+    z-index:1;
+  }
+  figure.pic12 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+    -webkit-transform : rotate(2deg);
+    z-index:1;
+  }
+  
+  figure.pic13 {
+    transform: scaleX(3);
+    transform: scaleY(3);
+   -webkit-transform : rotate(4deg);
+    z-index:1;
+  }
+
+
+  footer {
+    bottom: 0;
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.843);
+    width: 100%;
+}
+@media (max-width: 600px) {
+
+	#gallery-page{
+		margin-top:  45%;
+
+	}
+  }
